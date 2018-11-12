@@ -1,0 +1,44 @@
+body{
+
+}
+header{
+  display: grid;
+  position: fixed;
+  top:0;
+  width:100%;
+  grid-template-columns: 2fr 5fr 1fr 1fr 1fr;
+  background-color: grey;
+}
+header>.lenke{
+  align-self: :center;
+}
+header>.lenke>a{
+  color:white;
+  text-decoration: none;
+
+}
+#logo>h3{
+  font-size: 32px;
+  color:white;
+  padding-left: 10px;
+  font-family: helvetica, sans-serif, times;
+  margin: 1px;
+}
+main{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap:5px;
+  grid-auto-rows: minmax(50px,auto);
+
+}
+main>section{
+  background-color: red;
+}
+.middelssak{
+  grid-column: span 2;
+  grid-row: span 2;
+}
+.storsak{
+  grid-column: span 3;
+  grid-row: span 3;
+}
