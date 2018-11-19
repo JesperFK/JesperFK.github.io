@@ -1,17 +1,23 @@
+
 body{
-  background-image: url("bilder/rooneyredlegendfixed2.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: black;
+  margin:0;
 }
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: #e60000;
+
 }
+
+header{
+  overflow: hidden;
+  background-color: #e60000;
+}
+
 
 li {
     float: left;
@@ -21,8 +27,9 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 30px 20px;
+    padding: 45px 35px;
     text-decoration: none;
+
 }
 
 
@@ -33,4 +40,123 @@ li a:hover {
 .hovedsidelogo{
   float: right;
   width: 10%;
+}
+
+.gridbilder{
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns:
+  470px 470px 470px;
+}
+
+.gridbilder>article{
+  color: black;
+  background-color: white;
+  padding-top: 200px;
+  margin-top: 600px;
+  width: 300px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.gridspillerbar{
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns:
+  700px 700px 700px;
+}
+
+.gridspillerbar>article{
+  color: white;
+  background-color: white;
+  padding-top: 50px;
+  margin-top: 0px;
+  height: 1px;
+  width: 735px;
+}
+
+.gridspillertropp{
+  display: grid;
+  grid-gap: 670px;
+  grid-template-columns:
+  70px 70px;
+}
+
+.gridspillertropp>article{
+  color: black;
+  background-color: white;
+  padding-top: 200px;
+  margin-top: 1px;
+  margin-bottom: -10000px;
+  width: 700px;
+  height: 270px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.gridlegender{
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns:
+  470px 470px 470px;
+}
+
+.gridlegender>article{
+  color: black;
+  background-color: white;
+  padding-top: 200px;
+  margin-top: 600px;
+  width: 300px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.gridkamper{
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns:
+  470px 470px 470px;
+}
+
+.gridkamper>article{
+  color: black;
+  background-color: white;
+  padding-top: 200px;
+  margin-top: 0px;
+  width: 300px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.gridpltable{
+  display: grid;
+  grid-template-columns:
+  470px 470px 470px;
+}
+
+.gridpltable>article{
+  color: black;
+  background-color: white;
+  padding-top: 200px;
+  margin-top: 100px;
+  width: 300px;
+  height: 700px;
+  margin-left: 1140px
+}
+
+.gridmatches{
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns:
+  100px 100px 100px;
+}
+
+.gridmatches>article{
+  color: white;
+  background-color: white;
+  padding-top: 50px;
+  margin-top: 0px;
+  height: 2px;
+  width: 435px;
 }
