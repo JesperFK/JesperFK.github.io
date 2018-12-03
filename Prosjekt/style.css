@@ -4,6 +4,7 @@ body{
   background-size: cover;
   background-color: black;
   margin:0;
+  font-family: Tahoma;
 }
 
 ul {
@@ -87,7 +88,6 @@ li a:hover {
   background-color: white;
   padding-top: 200px;
   margin-top: 1px;
-  margin-bottom: -10000px;
   width: 700px;
   height: 270px;
   margin-right: auto;
@@ -196,21 +196,6 @@ grid-template-columns:
   width: 300px;
 }
 
-.gridår{
-  display: grid;
-  grid-gap: 0px;
-  grid-template-columns:
-  5px;
-}
-
-.gridår>article{
-  color: white;
-  background-color: white;
-  padding-top: 50px;
-  margin-top: 20px;
-  height: 2px;
-  width: 290px;
-}
 
 .gridbilderår{
 display:grid;
@@ -252,4 +237,20 @@ grid-template-columns:
   width: 300px;
   height: 200px;
   margin-left: 1140px
+}
+
+
+.dropdown{
+  posititon: relative;
+  color: white;
+}
+.dropdown-innhold{
+  display: none;
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+  color: black;
+}
+.dropdown:hover .dropdown-innhold{
+  display:block;
 }
