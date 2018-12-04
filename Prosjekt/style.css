@@ -86,10 +86,10 @@ li a:hover {
 .gridspillertropp>article{
   color: black;
   background-color: white;
-  padding-top: 200px;
+  padding-top: 0px;
   margin-top: 1px;
-  width: 700px;
   height: 270px;
+  width: 700px;
   margin-right: auto;
   margin-left: auto;
 }
