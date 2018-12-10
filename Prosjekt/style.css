@@ -47,69 +47,57 @@ li a:hover {
   display: grid;
   grid-gap: 5px;
   grid-template-columns:
-  470px 470px 470px;
+  1fr 1fr 1fr;
+  margin-top: 600px;
+  margin-left: 120px;
 }
 
-.gridbilder>article{
-  color: black;
-  background-color: white;
-  padding-top: 200px;
-  margin-top: 600px;
-  width: 300px;
-  margin-right: auto;
-  margin-left: auto;
+.fa {
+  padding: 25px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  margin-left: 295px;
+  margin-top: 100px;
 }
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
 
 .gridspillerbar{
-  display: grid;
-  grid-gap: 5px;
-  grid-template-columns:
-  700px 700px 700px;
-}
-
-.gridspillerbar>article{
-  color: white;
-  background-color: white;
-  padding-top: 50px;
-  margin-top: 0px;
-  height: 1px;
-  width: 735px;
+display: grid;
+grid-template-columns: 1fr 1fr;
 }
 
 .gridspillertropp{
   display: grid;
-  grid-gap: 670px;
-  grid-template-columns:
-  70px 70px;
+  grid-template-columns: 1fr 1fr;
 }
-
-.gridspillertropp>article{
-  color: black;
-  background-color: white;
-  padding-top: 0px;
-  margin-top: 1px;
-  height: 270px;
-  width: 700px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
 
 .gridlegender{
   display: grid;
-  grid-gap: 5px;
-  grid-template-columns:
-  470px 470px 470px;
-}
-
-.gridlegender>article{
-  color: black;
-  background-color: white;
-  padding-top: 200px;
-  margin-top: 600px;
-  width: 300px;
-  margin-right: auto;
-  margin-left: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 120px;
 }
 
 .gridkamper{
@@ -121,8 +109,8 @@ li a:hover {
 
 .gridkamper>article{
   color: black;
-  background-color: white;
-  padding-top: 200px;
+  background-color: black;
+  padding-top: 0px;
   margin-top: 0px;
   width: 300px;
   margin-right: auto;
@@ -141,26 +129,26 @@ grid-template-columns:
 
 .gridpltable>article{
   color: black;
-  background-color: white;
-  padding-top: 200px;
-  margin-top: 100px;
+  background-color: black;
+  padding-top: 0px;
+  margin-top:  100px;
   width: 250px;
   height: 700px;
-  margin-left: 1140px
+  margin-left: 1115px
 }
 
 .gridmatches{
   display: grid;
-  grid-gap: 2px;
+  grid-gap: 20px;
   grid-template-columns:
   50px;
 }
 
 .gridmatches>article{
   color: white;
-  background-color: white;
-  padding-top: 50px;
-  margin-top: 100px;
+  background-color:black;
+  padding-top: 20px;
+  margin-top: 80px;
   height: 2px;
   width: 1140px;
 }
@@ -175,7 +163,7 @@ grid-template-columns:
 .gridtidslinje>article{
   color: white;
   background-color: white;
-  padding-top: 300px;
+  padding-top: 0px;
   margin-top: 0px;
   height: 1px;
   width: 1440px;
@@ -183,19 +171,21 @@ grid-template-columns:
 
 .gridhistoriskebilder{
   display: grid;
-  grid-gap: 5px;
+  grid-gap: 0px;
   grid-template-columns:
   470px 470px;
 }
 
 .gridhistoriskebilder>article{
-  color: black;
-  background-color: white;
-  padding-top: 200px;
-  margin-top: 20px;
+  color: white;
+  background-color: black;
+  padding-top: 0px;
   width: 300px;
 }
 
+.solskjærcantona{
+  margin-top: 400px;
+}
 
 .gridbilderår{
 display:grid;
@@ -212,14 +202,14 @@ grid-template-columns:
 
 .gridlegendebilder>article{
   color: black;
-  background-color: white;
-  padding-top: 200px;
+  background-color: black;
+  padding-top: 0px;
   margin-top: 1px;
   margin-bottom: -10000px;
-  width: 700px;
+  width: 650px;
   height: 270px;
   margin-right: auto;
-  margin-left: auto;
+  margin-left: 18px;
 }
 
 
@@ -231,25 +221,40 @@ grid-template-columns:
 
 .gridinfo>article{
   color: black;
-  background-color: white;
-  padding-top: 200px;
+  background-color: black;
+  padding-top: 0px;
   margin-top: 500px;
   width: 300px;
   height: 200px;
-  margin-left: 1140px
+  margin-left: 1110px
 }
 
+p{
+  color: white;
+  margin-left: 60px;
+  
+
+}
 
 .dropdown{
   posititon: relative;
   color: white;
+  margin-top: 0px;
+  padding-top: 300px;
+  border-bottom: solid;
+  border-color: red;
+  border-width: 5px;
+  text-align: center;
+  margin-top: 250px;
 }
+
 .dropdown-innhold{
   display: none;
   position: absolute;
   z-index: 1;
   background-color: white;
   color: black;
+
 }
 .dropdown:hover .dropdown-innhold{
   display:block;
