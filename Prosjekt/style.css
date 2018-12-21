@@ -11,14 +11,12 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-
 }
 
 header{
   overflow: hidden;
   background-color: #e60000;
 }
-
 
 li {
     float: left;
@@ -30,9 +28,7 @@ li a {
     text-align: center;
     padding: 45px 35px;
     text-decoration: none;
-
 }
-
 
 li a:hover {
     background-color: #111;
@@ -61,7 +57,6 @@ li a:hover {
   margin: 5px 2px;
   border-radius: 50%;
   margin-top: 100px;
-
 }
 
 .fa:hover {
@@ -83,7 +78,6 @@ li a:hover {
   background: #bb0000;
   color: white;
 }
-
 
 .gridspillerbar{
 display: grid;
@@ -113,11 +107,13 @@ grid-template-columns: 1fr 1fr;
   background-color: black;
   width: 300px;
 }
+
 .gridtablematches{
 display:grid;
 grid-template-columns:
 4fr 1fr;
 }
+
 .gridpltable{
   display: grid;
   grid-template-columns:
@@ -170,7 +166,6 @@ grid-template-columns:
   background-color: black;
 }
 
-
 .dropdown{
   posititon: relative;
   color: white;
@@ -179,7 +174,6 @@ grid-template-columns:
   border-width: 5px;
   text-align: center;
   margin-bottom: 200px;
-
 }
 
 .dropdown-innhold{
@@ -188,8 +182,8 @@ grid-template-columns:
   z-index: 1;
   background-color: white;
   color: black;
-
 }
+
 .dropdown:hover .dropdown-innhold{
   display:block;
 }
@@ -199,7 +193,6 @@ display:grid;
 grid-template-columns:
 4fr 1fr;
 }
-
 
 .gridlegendebilder{
   display: grid;
@@ -215,7 +208,6 @@ grid-template-columns:
   width: 650px;
   height: 270px;
 }
-
 
 .gridinfo{
   position: relative;
