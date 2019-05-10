@@ -356,7 +356,7 @@
         "Pris": "2999kr",
         "Underlag": "Gress",
         "Bilde": "bilder/nikecr7.jpg",
-			  "Tekst":"Skoene brukes av Cristiano Ronaldo. Hel Flyknit-overdel som gjør støvlen ekstremt fleksibel samt en mikroteksturering for bedre kontroll på ballen ved høy fart. Overdel behandlet med NikeSkin, hvilket betyr at det tynne laget med PU-film bindes sammen med et performance mesh, og dermed skapes et lett, pustende og tett fit"
+			  "Tekst":"Skoene brukes av Cristiano Ronaldo. Hel Flyknit-overdel som gjør støvlen ekstremt fleksibel samt en mikroteksturering for bedre kontroll på ballen ved høy fart. Overdel behandlet med NikeSkin, hvilket betyr at det tynne laget med PU-film bindes sammen med et performance mesh, og dermed skapes et lett, pustende og tett fit."
       },
 			"S12": {
 				"Navn": "Nike M-12",
@@ -419,7 +419,7 @@
 	  	},
 			"T02": {
 				"Fotballtøy":"Fotballdrakt",
-				"Navn": "Barcelona H",
+				"Navn": "Barca H",
 				"Størrelse": "L",
 				"Farge1": "Blå",
 				"Farge2": "Rød",
@@ -445,7 +445,7 @@
 			},
 			"T04": {
 				"Fotballtøy":"Fotballdrakt",
-				"Navn": "Barcelona B",
+				"Navn": "Barca B",
 				"Størrelse": "L",
 				"Farge1": "Gul",
 				"Farge2": "Svart",
@@ -471,7 +471,7 @@
 			},
 			"T06": {
 				"Fotballtøy":"Fotballdrakt",
-				"Navn": "Barcelona T",
+				"Navn": "Barca T",
 				"Størrelse": "L",
 				"Farge1": "Rosa",
 				"Farge2": "Rød",
@@ -510,7 +510,7 @@
 			},
 			"T09": {
 				"Fotballtøy":"Fotballsko",
-				"Navn": "Adidas P-18",
+				"Navn": "Adidas 18",
 				"Størrelse": "44",
 				"Farge1": "Svart",
 				"Farge2": "Gull",
@@ -588,7 +588,7 @@
 			},
 			"T15": {
 				"Fotballtøy":"Fotballsko",
-				"Navn": "Adidas P-17",
+				"Navn": "Adidas 17",
 				"Størrelse": "45",
 				"Farge1": "Gul",
 				"Farge2": "Svart",
@@ -614,7 +614,7 @@
 			},
 			"T17": {
 				"Fotballtøy":"Fotballsko",
-				"Navn": "Nike Legend",
+				"Navn": "Nike L",
 				"Størrelse": "45",
 				"Farge1": "Rød",
 				"Farge2": "Svart",
