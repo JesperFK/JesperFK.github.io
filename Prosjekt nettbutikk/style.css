@@ -195,11 +195,8 @@ display: block;
   margin-left: auto;
 }
 
-/*Liverpool hjemmedrakt 2019/2020 */
-.container {
-  position: relative;
-  width: 50%;
-}
+
+
 
 .image {
   display: block;
@@ -518,6 +515,5 @@ p.round2{
   display: block;
   width: 30%;
 }
-
 
 }
