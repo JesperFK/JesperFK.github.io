@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <script src="https://www.gstatic.com/firebasejs/5.8.2/firebase.js"></script>
+
+
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBuaHl31Tpnrhgy1I4gnQCb-VopqTGfKww",
+    authDomain: "fifaplayers-e8a25.firebaseapp.com",
+    databaseURL: "https://fifaplayers-e8a25.firebaseio.com",
+    projectId: "fifaplayers-e8a25",
+    storageBucket: "",
+    messagingSenderId: "376993356613"
+  };
+  firebase.initializeApp(config);
+</script>
+
+  </head>
+</head>
+<body>
+
+<section id="secSpillere">
+</section>
+
+
+
+
+<script type="text/javascript">
+const db = firebase.database();
+const players = db.ref("players");
+
+const secSpillere=document.querySelector("#secSpillere");
+
+function visSpiller(snapshot){
+  console.log(snapshot.val());
+  let spiller = snapshot.val();
+
+  let nySec = document.createElement("section");
+
+  secSpillere.innerHTML += `
+  <h2>${spiller.Name}</h2>
+  <p>Overall: ${spiller["Overall"]}</p>
+  <img src=${spiller.Photo}>
+  `
+  secSpillere.insertBefore(nySec,secSpillere.childNodes[0]);
+
+}
+
+players
+.orderByChild("overall")
+.limitTolast(5)
+.on("child_added",visSpiller);
+</script>
+
+
+</body>
+</html>

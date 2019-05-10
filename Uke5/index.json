@@ -1,0 +1,59 @@
+{
+"1":{
+  "svar":"Primærnøkkel er en attributt/data som kan fastsette eller peke til annen data"
+
+
+
+},
+"2":{
+  "a":{
+    "svar":"Elevid"
+  },
+  "b":{
+    "svar":"Registreringsnummer"
+
+  },
+  "c":{
+    "svar":"DNA"
+
+  },
+"d":{
+  "svar":"Telefonnummer"
+
+},
+
+"e":{
+  "svar":"form"
+
+},
+
+"3":{
+  "svar":"Kandidatnøkkel er en minimal supernøkkel"
+
+},
+
+"4":{
+  "svar":"Fremmednøkkel er henvisning til andre data i en database"
+
+},
+
+"5":{
+  "svar":"Normalisering er en teknikk for å designe tabeller i relasjonsdatabaser slik at man minimerer duplisering av informasjon"
+},
+
+"6":{
+"spillere":{
+  "jfkielland"
+
+},
+
+"7":{
+  "Gatenavn":"Bauneveien",
+  "Gatenummer":"13A",
+  "Navn":"Jesper Føyn Kielland",
+  "postnummer":"1363",
+  "poststed":"Høvik",
+}
+
+ }
+}

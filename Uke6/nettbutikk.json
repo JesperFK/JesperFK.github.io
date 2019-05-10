@@ -1,0 +1,25 @@
+{
+   "varer":{
+      "bukser":{
+        "bukse001":{
+          "merke":"olabukse",
+          "modell":"stretchy",
+          "pris":490,
+          "bilde":"bilder/olabukse1.jpg"
+        },
+        "bukse002":{
+          "merke":"kortbukse",
+          "modell":"Steinvaska",
+          "pris":580,
+          "bilde":"bilder/kortbukse.jpg"
+          }
+        },
+        "skjorte":{
+          "merke":"rutete",
+          "modell":"Medium",
+          "pris":700,
+          "bilde":"bilder/skjorte.jpg"
+        }
+      }
+   }
+}

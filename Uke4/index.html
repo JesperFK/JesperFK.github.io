@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="nb" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <script src="https://www.gstatic.com/firebasejs/5.8.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyD6sRIP9jFAoZoQHV6pbdOG8_xE3orir5g",
+    authDomain: "jespersdatabase.firebaseapp.com",
+    databaseURL: "https://jespersdatabase.firebaseio.com",
+    projectId: "jespersdatabase",
+    storageBucket: "jespersdatabase.appspot.com",
+    messagingSenderId: "567159451477"
+  };
+  firebase.initializeApp(config);
+</script>
+
+  </head>
+  <body>
+
+    <form class="" method="post">
+      <label for="inpNavn"> Navn:</label>
+      <input id="inpNavn" type="text" name="navn" value="" placeholder="navn">
+      <label for="inpTelefon">Telefon:</label>
+      <input id="btnKnapp" type="text" name="telefon" value="" placeholder="telefon">
+      <button id="btnKnapp" type="button" name="button">Send inn </button>
+
+
+    <script type="text/javascript">
+
+    const inpNavn = document.querySelector("#inpNavn");
+    const inpTelefon = document.querySelector("#inpTelefon");
+    const btnKnapp = document.querySelector("#btnKnapp");
+
+  btnKnapp.onclick = function(event){
+    event.preventDefault();
+    let navn = inpNavn.value;
+    let telefon = inpTelefon.value;
+    kontakliste.push(
+      {
+        "name": navn,
+        "telephone": telefon
+      }
+    );
+  }
+
+
+    const db = firebase.database();
+    const kontakliste = db.ref("kontakliste");
+
+    kontakliste.push(
+      {
+        "firstName":"Jesper Føyn",
+        "lastName":"Kielland",
+        "Telephone":45743212
+      }
+    )
+
+    </script>
+  </body>
+</html>

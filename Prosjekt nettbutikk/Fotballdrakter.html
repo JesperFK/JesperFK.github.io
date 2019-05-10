@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+  <link rel="stylesheet" href="style.css">
+	  <link rel="stylesheet" href="assets/css/style.css">
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+
+	<title>Fotballdrakter</title>
+
+<script src="https://www.gstatic.com/firebasejs/5.9.2/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAWUXSbPz-0cnR5v3D5VGRnXoJVUQweiQI",
+    authDomain: "fotballshop-f6cd4.firebaseapp.com",
+    databaseURL: "https://fotballshop-f6cd4.firebaseio.com",
+    projectId: "fotballshop-f6cd4",
+    storageBucket: "fotballshop-f6cd4.appspot.com",
+    messagingSenderId: "276082043917"
+  };
+  firebase.initializeApp(config);
+</script>
+</head>
+<body>
+	<header class="cd-header">
+
+		<a href="#0" class="cd-3d-nav-trigger">
+			Menu
+			<span></span>
+		</a>
+	</header> <!-- .cd-header -->
+
+	<main>
+		<h1>Fotballdrakter</h1>
+
+  <nav class="fotballdrakter">
+    <button class="Knapp" onclick="visDrakter()">Alle fotballdrakter</button>
+    <button class="Knapp" onclick="visPris()">Lav til høy pris</button>
+    <button class="Knapp" onclick="visEngland()">England</button>
+    <button class="Knapp" onclick="visItalia()">Italia</button>
+    <button class="Knapp" onclick="visSpania()">Spania</button>
+    <button class="Knapp" onclick="visFrankrike()">Frankrike</button>
+  </nav>
+
+
+
+  <div class="wrapper">
+    <div class="one">One</div>
+    <div class="two">Two</div>
+    <div class="three">Three</div>
+    <div class="four">Four</div>
+    <div class="five">Five</div>
+    <div class="six">Six</div>
+    <div class="seven">seven</div>
+    <div class="eight">eight</div>
+    <div class="nine">nine</div>
+  </div>
+
+
+	</main>
+
+	<nav class="cd-3d-nav-container">
+		<ul class="cd-3d-nav">
+      <li>
+        <a href="Fotballshop.html">Hjem</a>
+      </li>
+
+      <li class="cd-selected">
+        <a href="Fotballdrakter.html">Fotballdrakter</a>
+      </li>
+
+      <li>
+        <a href="Fotballsko.html">Fotballsko</a>
+      </li>
+
+      <li>
+        <a href="Tilbud.html">Tilbud</a>
+      </li>
+
+			<li>
+				<a href="omoss.html">Om oss</a>
+			</li>
+		</ul> <!-- .cd-3d-nav -->
+
+		<span class="cd-marker color-2"></span>
+	</nav> <!-- .cd-3d-nav-container -->
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+
+<script>
+const main = document.querySelector("main");
+const wrapper = document.querySelector(".wrapper");
+const db  = firebase.database();
+const Fotballdrakter = db.ref("Fotballtøy/Fotballdrakter");
+
+function genererHTML (snapshot){
+  let Fotballtøy = snapshot.val();
+  let key = snapshot.key;
+	let parent =snapshot.ref.parent.key;
+  console.log(snapshot.val());
+  wrapper.innerHTML +=`
+   <article class="Fotballtøy">
+   <h1 class="Navn">${Fotballtøy.Navn}</h1>
+   <img class="Bilde" src="${Fotballtøy.Bilde}" alt="Feil">
+	 <a href="fotballkjøp.html?key=${key}&parent=${parent}" class="les-mer">Les mer</a>
+	 <p class="pris"> ${Fotballtøy.Pris}</p>
+
+
+   </article>
+   `
+}
+
+visDrakter();
+
+function visDrakter(){
+  wrapper.innerHTML =``
+  Fotballdrakter
+  .orderByChild("Navn").on("child_added", genererHTML);
+}
+
+function visPris(){
+  wrapper.innerHTML =``
+  Fotballdrakter
+  .orderByChild("Pris").on("child_added", genererHTML);
+}
+
+function visEngland(){
+  wrapper.innerHTML =``
+  Fotballdrakter
+  .orderByChild("Land").equalTo("England").on("child_added", genererHTML);
+  }
+
+function visItalia(){
+  wrapper.innerHTML =``
+  Fotballdrakter
+  .orderByChild("Land").equalTo("Italia").on("child_added", genererHTML);
+  }
+
+function visSpania(){
+  wrapper.innerHTML =``
+  Fotballdrakter
+  .orderByChild("Land").equalTo("Spania").on("child_added", genererHTML);
+  }
+
+function visFrankrike(){
+  wrapper.innerHTML =``
+  Fotballdrakter
+  .orderByChild("Land").equalTo("Frankrike").on("child_added", genererHTML);
+  }
+
+</script>
+
+
+<footer>
+
+
+<table id="kontaktinformasjon">
+<tr>
+	<th>Telefon</th>
+	<th>E-post</th>
+	<th>Postboks</th>
+</tr>
+<tr>
+	<td>+47 22024567</td>
+	<td>futbalabutiko@gmail.com</td>
+	<td>1363 Høvik</td>
+</tr>
+
+</table>
+</footer>
+
+
+</body>
+</html>

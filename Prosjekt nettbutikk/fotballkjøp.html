@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="nb" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+
+  	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+  	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+    <link rel="stylesheet" href="style.css">
+  	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+
+  	<title>Fotballkjøp</title>
+
+  <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyAWUXSbPz-0cnR5v3D5VGRnXoJVUQweiQI",
+      authDomain: "fotballshop-f6cd4.firebaseapp.com",
+      databaseURL: "https://fotballshop-f6cd4.firebaseio.com",
+      projectId: "fotballshop-f6cd4",
+      storageBucket: "fotballshop-f6cd4.appspot.com",
+      messagingSenderId: "276082043917"
+    };
+    firebase.initializeApp(config);
+  </script>
+    <title></title>
+  </head>
+  <body>
+    <header class="cd-header">
+    
+      <a href="#0" class="cd-3d-nav-trigger">
+        Menu
+        <span></span>
+      </a>
+    </header> <!-- .cd-header -->
+
+<nav class="cd-3d-nav-container">
+  <ul class="cd-3d-nav">
+    <li class="cd-selected">
+      <a href="Fotballshop.html">Hjem</a>
+    </li>
+
+    <li>
+      <a href="Fotballdrakter.html">Fotballdrakter</a>
+    </li>
+
+    <li>
+      <a href="Fotballsko.html">Fotballsko</a>
+    </li>
+
+    <li>
+      <a href="Tilbud.html">Tilbud</a>
+    </li>
+
+    <li>
+      <a href="omoss.html">Om oss</a>
+    </li>
+  </ul> <!-- .cd-3d-nav -->
+
+  <span class="cd-marker color-1"></span>
+</nav> <!-- .cd-3d-nav-container -->
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+
+<main>
+
+</main>
+
+<script>
+        const main = document.querySelector("main");
+
+        let url_string = window.location.href;
+        let url = new URL(url_string);
+        let parent = url.searchParams.get("parent");
+        let key = url.searchParams.get("key");
+
+        console.log(key,parent);
+
+        const db = firebase.database();
+        const Fotballdrakter = db.ref("Fotballtøy/"+parent+"/"+key);
+
+        Fotballdrakter.on("value", genererHTML);
+
+        function genererHTML(snapshot){
+            let key = snapshot.key;
+            let objekt = snapshot.val();
+            let parent = snapshot.ref.parent.key;
+            main.innerHTML +=`
+            <h1>${objekt.Navn}</h1>
+            <img src="${objekt.Bilde}" class="fotballkjøpbilde" alt="">
+            <p class="Tekst"> ${objekt.Tekst}</p>
+
+       <table id="fotballkjøptabell">
+       <tr>
+         <th>Pris</th>
+         <th>Merke</th>
+         <th>Størrelse</th>
+       </tr>
+         <tr>
+          <td> <p class="fotballkjøppris"> ${objekt.Pris}</p></td>
+          <td> <p class="fotballkjøpmerke"> ${objekt.Merke}</p></td>
+          <td> <p class="fotballkjøpstørrelse"> ${objekt.Størrelse}</p></td>
+         </tr>
+
+
+
+            `;
+        }
+
+
+        //Fotballtøy.on("value", genererHTML);
+      </script>
+<a href="handlekurv.html">
+<button class="fotballkjøpknapp"> Kjøp</button>
+</a>
+
+  </body>
+</html>

@@ -1,0 +1,13 @@
+
+header>nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media(max-width:500px){
+  header>nav{
+    flex-direction: column;
+  }
+}
