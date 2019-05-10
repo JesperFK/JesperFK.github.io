@@ -507,6 +507,7 @@ margin-top: 100px;
   }
   .prisfør{
     margin-top: 10px;
+
   }
 
   .bildelenker{
@@ -556,5 +557,11 @@ p.round2{
 .slideshow-container{
   width: 90%;
 }
+
+.Bilde{
+  display: block;
+  width: 30%;
+}
+
 
 }

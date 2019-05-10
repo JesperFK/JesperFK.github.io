@@ -2,7 +2,7 @@
 	"Fotballtøy": {
 		"Fotballdrakter": {
 			"D01": {
-				"Navn": "Manchester United H",
+				"Navn": "Man Utd H",
 				"Størrelse": "Large",
 				"Farge1": "Rød",
 				"Farge2": "Svart",
@@ -13,7 +13,7 @@
 			  "Tekst":"Manchester United er en av verdens største fotballklubber og i år har de gjort noen spennende nye innkjøp. De siste årene har ikke gått helt som planlagt, men det vil nå endres. Manchester United vil tilbake til toppen! I vår Manchester United Shop finner du både Manchester United hjemmedrakt, bortedrakt og tredjedrakt i alle størrelser."
 			},
 			"D02": {
-				"Navn": "Manchester United B",
+				"Navn": "Man Utd B",
 				"Størrelse": "Large",
 				"Farge1": "Rosa",
 				"Farge2": "Svart",
@@ -25,7 +25,7 @@
 
 			},
 			"D03": {
-				"Navn": "Manchester United T",
+				"Navn": "Man Utd T",
 				"Størrelse": "Large",
 				"Farge1": "Mørkeblå",
 				"Farge2": "Gull",
@@ -37,7 +37,7 @@
 
 			},
 			"D04": {
-				"Navn": "Paris Saint-Germain T ",
+				"Navn": "PSG T ",
 				"Størrelse": "Large",
 				"Farge1": "Svart",
 				"Farge2": "Hvit",
@@ -48,7 +48,7 @@
 			  "Tekst":"Paris Saint Germain, eller PSG som de kalles, er uten tvil en av Frankrikes største klubber. I vår Paris Saint-Germain Shop kan du finne både Paris Saint Germain hjemmedrakt, bortedrakt og tredjedrakt til både voksen og barn"
 			},
 			"D05": {
-				"Navn": "Paris Saint-Germain B",
+				"Navn": "PSG B",
 				"Størrelse": "Large",
 				"Farge1": "Hvit",
 				"Farge2": "Gull",
@@ -59,7 +59,7 @@
 			  "Tekst":"Paris Saint Germain, eller PSG som de kalles, er uten tvil en av Frankrikes største klubber. I vår Paris Saint-Germain Shop kan du finne både Paris Saint Germain hjemmedrakt, bortedrakt og tredjedrakt til både voksen og barn"
 			},
 			"D06": {
-				"Navn": "Bournemouth H",
+				"Navn": "B'mouth H",
 				"Størrelse": "Large",
 				"Farge1": "Rød",
 				"Farge2": "Svart",
@@ -136,7 +136,7 @@
 			  "Tekst":"Juvenuts, Den gamle Dame, I Bianconeri, Le Zebre.. Mange navn på en italiensk stolthet. Juventus har dominert italiensk fotball i mange år og er suverene mestre. I vår Juventus Shop kan du kjøpe din Juventus hjemmedrakt, bortedrakt eller tredjedrakt og støtte laget i jakten på Champions League- og ligatittelen. Kjøp din Juventus fotballdrakt hos oss med lynrask levering."
 			},
 			"D13": {
-				"Navn": "Real Madrid H",
+				"Navn": "R Madrid H",
 				"Størrelse": "Large",
 				"Farge1": "Hvit",
 				"Farge2": "Svart",
@@ -147,7 +147,7 @@
 			  "Tekst":"Los Merengues, Los Blancos, Los Galácticos... Real Madrid har mange kallenavn, men det er mest kjente for sin fantastiske fotball og mange stjernespillere. Futbala Butiko sin Real Madrid Shop har både Real Madrid hjemmedrakt, bortedrakt og tredjedrakt. . Velg drakten du ønsker og kjøp den i dag med rask levering!"
 			},
 			"D14": {
-				"Navn": "Real Madrid B",
+				"Navn": "R Madrid B",
 				"Størrelse": "Large",
 				"Farge1": "Svart",
 				"Farge2": "Hvit",
@@ -158,7 +158,7 @@
 			  "Tekst":"Los Merengues, Los Blancos, Los Galácticos... Real Madrid har mange kallenavn, men det er mest kjente for sin fantastiske fotball og mange stjernespillere. Futbala Butiko sin Real Madrid Shop har både Real Madrid hjemmedrakt, bortedrakt og tredjedrakt. . Velg drakten du ønsker og kjøp den i dag med rask levering!"
 			},
 			"D15": {
-				"Navn": "Real Madrid T",
+				"Navn": "R Madrid T",
 				"Størrelse": "Large",
 				"Farge1": "Rød",
 				"Farge2": "Hvit",
@@ -224,7 +224,7 @@
 			  "Tekst":"Watford eller The Hornets. Den engelske fotballklubben som spiller i premier league overrasker hver sesong. og ligger ann til en imponerende 10. plass. Løp og kjøp!"
 			},
       "D21": {
-        "Navn": "Paris Saint-Germain H ",
+        "Navn": "PSG H ",
         "Størrelse": "Large",
         "Farge1": "Blå",
         "Farge2": "Rød",
@@ -238,7 +238,7 @@
 
 		"Fotballsko": {
 			"S01": {
-				"Navn": "Nike Mercurial Vapor",
+				"Navn": "Nike M-V",
 				"Størrelse": "43",
 				"Farge1": "Rød",
 				"Farge2": "Hvit",
@@ -249,7 +249,7 @@
 			  "Tekst":"Nike Mercurial er den perfekte speedskoen til deg som ønsker lettvekt og godt touch, men allikevel har krav til komfort. Toppmodellene, Mercurial Superfly og Vapor, har en overdel utstyrt med Speed Rib kabler som forbedrer touchet under høy fart. Knottene på Mercurial er spesialtilpasset så de gir et utrolig grep i underlaget og dermed lar deg akselerere raskere enn tidligere. Sålen er for første gang anatomisk formet for å gi deg perfekt komfort og passform. Mercurial kan finnes i alle prisklasser."
 			},
 			"S02": {
-				"Navn": "Nike Mercurial Superfly",
+				"Navn": "Nike M-S",
 				"Størrelse": "43",
 				"Farge1": "Oransje",
 				"Farge2": "Svart",
@@ -260,7 +260,7 @@
 			  "Tekst":"Nike Mercurial er den perfekte speedskoen til deg som ønsker lettvekt og godt touch, men allikevel har krav til komfort. Toppmodellene, Mercurial Superfly og Vapor, har en overdel utstyrt med Speed Rib kabler som forbedrer touchet under høy fart. Knottene på Mercurial er spesialtilpasset så de gir et utrolig grep i underlaget og dermed lar deg akselerere raskere enn tidligere. Sålen er for første gang anatomisk formet for å gi deg perfekt komfort og passform. Mercurial kan finnes i alle prisklasser."
 			},
 			"S03": {
-				"Navn": "Nike Superfly 6 Pro",
+				"Navn": "Nike Pro",
 				"Størrelse": "43",
 				"Farge1": "Hvit",
 				"Farge2": "Oransje",
@@ -271,7 +271,7 @@
 			  "Tekst":"Nike introduserer Game Over Pack, som med sitt skarpe og listige utseende beskriver hvordan du blir den avgjørende spilleren for laget ditt, en skikkelig Game Killer. Game Over følger tre stadier, hvor det første stadiet er the look, som en ekte Game Killer har. Det er her man velger sitt bytte, og forbereder trinn nummer to, som er the kill. Det er nå angrepet settes igang, lyset slukkes hos din motstander og kampen avgjøres i beste Game Killer-stil."
 			},
       "S04": {
-				"Navn": "Adidas Predator",
+				"Navn": "Adidas P",
 				"Størrelse": "40",
 				"Farge1": "Rød",
 				"Farge2": "Svart",
@@ -282,7 +282,7 @@
 			  "Tekst":"Adidas Predator er en ikonisk klassiker med et moderne touch, som av mange blir ansett som den beste adidas fotballskoen noensinne. Det har vært flere Predator-modeller og fargemodeller gjennom tidene, hvor den rød/sorte versjonen med røde tunge er den mest berømte. Uansett hvilken versjon og fargemodell de har blitt lansert i, så har de vært utrolig populære og adidas Predator har blant annet blitt brukt av spillere som David Beckham og Zinedine Zidane. Bestill dine adidas Predator fra Futbala Butiko."
 			},
       "S05": {
-        "Navn": "Adidas Predator 19",
+        "Navn": "Adidas P-19",
         "Størrelse": "41",
         "Farge1": "Blå",
         "Farge2": "Hvit",
@@ -293,7 +293,7 @@
 			  "Tekst":"Adidas Predator er en ikonisk klassiker med et moderne touch, som av mange blir ansett som den beste adidas fotballskoen noensinne. Det har vært flere Predator-modeller og fargemodeller gjennom tidene, hvor den rød/sorte versjonen med røde tunge er den mest berømte. Uansett hvilken versjon og fargemodell de har blitt lansert i, så har de vært utrolig populære og adidas Predator har blant annet blitt brukt av spillere som David Beckham og Zinedine Zidane. Bestill dine adidas Predator fra Futbala Butiko."
       },
       "S06": {
-        "Navn": "Adidas Predator 18",
+        "Navn": "Adidas P-18",
         "Størrelse": "44",
         "Farge1": "Svart",
         "Farge2": "Gull",
@@ -315,7 +315,7 @@
 			  "Tekst":"Ace er en toppmodell fra adidas' ACE-linje. Overdel i et lett, mykt og slitesterkt syntetisk materiale. FG/AG-knotter for spill på gress og kunstgress."
       },
       "S08": {
-        "Navn": "Nike Superfly Elite",
+        "Navn": "Nike S-Elite",
         "Størrelse": "42",
         "Farge1": "Grå",
         "Farge2": "Gul",
@@ -326,7 +326,7 @@
 			  "Tekst":"Mercurial Superfly Elite er en undermodell til barn fra Nikes Superfly-linje. Overdel i et tynt og slitesterkt syntetisk materiale. FG-knotter for spill på naturgressbaner."
       },
       "S09": {
-        "Navn": "Nike Phantom",
+        "Navn": "Nike P",
         "Størrelse": "45",
         "Farge1": "Hvit",
         "Farge2": "Svart",
@@ -337,7 +337,7 @@
 			  "Tekst":"Nike Phantom er den perfekte skoen for spilleren som ønsker å opptre som et fantom ute på banen. En silhuett som er overalt og som dukker opp ubemerket, så det er umulig å holde følge med dine berøringer før du passer eller skyter ballen med presisjon. Nike Phantom-skoen er for spilleren som vil ha ballen når som helst og hvor som helst på banen. Denne skoen byr på en utrolig komfort og fantastisk kontroll, så du er klar til å avgjøre kampen."
       },
       "S10": {
-        "Navn": "Adidas World Cup",
+        "Navn": "Adidas W-C",
         "Størrelse": "44",
         "Farge1": "Svart",
         "Farge2": "Hvit",
@@ -359,7 +359,7 @@
 			  "Tekst":"Skoene brukes av Cristiano Ronaldo. Hel Flyknit-overdel som gjør støvlen ekstremt fleksibel samt en mikroteksturering for bedre kontroll på ballen ved høy fart. Overdel behandlet med NikeSkin, hvilket betyr at det tynne laget med PU-film bindes sammen med et performance mesh, og dermed skapes et lett, pustende og tett fit"
       },
 			"S12": {
-				"Navn": "Nike Mercurial 12",
+				"Navn": "Nike M-12",
 				"Størrelse": "43",
 				"Farge1": "Svart",
 				"Farge2": "Grønn",
@@ -370,7 +370,7 @@
 			  "Tekst":"Nike Mercurial er den perfekte speedskoen til deg som ønsker lettvekt og godt touch, men allikevel har krav til komfort. Toppmodellene, Mercurial Superfly og Vapor, har en overdel utstyrt med Speed Rib kabler som forbedrer touchet under høy fart. Knottene på Mercurial er spesialtilpasset så de gir et utrolig grep i underlaget og dermed lar deg akselerere raskere enn tidligere. Sålen er for første gang anatomisk formet for å gi deg perfekt komfort og passform. Mercurial kan finnes i alle prisklasser."
 			},
 			"S13": {
-				"Navn": "Adidas Nemezis",
+				"Navn": "Adidas N",
 				"Størrelse": "43",
 				"Farge1": "Hvit",
 				"Farge2": "Svart",
@@ -392,7 +392,7 @@
 			  "Tekst":"Mercurial Neymar er toppmodellen fra Nikes speedsilo Mercurial. Overdel i Nikes Flyknit 360-konstruksjon som gir en tett og fleksibel passform. AG-Pro-knotter for spill på kunstgressbaner."
 			},
 			"S15": {
-				"Navn": "Nike Mercurial 10",
+				"Navn": "Nike M-10",
 				"Størrelse": "43",
 				"Farge1": "Oransje",
 				"Farge2": "Svart",
@@ -406,7 +406,7 @@
 		"Tilbud": {
 			"T01": {
 				"Fotballtøy":"Fotballsko",
-				"Navn": "Nike Mercurial Vapor",
+				"Navn": "Nike M-V",
 				"Størrelse": "43",
 				"Farge1": "Rød",
 				"Farge2": "Hvit",
@@ -432,7 +432,7 @@
   	  },
 			"T03": {
 				"Fotballtøy":"Fotballsko",
-				"Navn": "Nike Mercurial 12",
+				"Navn": "Nike M-12",
 				"Størrelse": "43",
 				"Farge1": "Svart",
 				"Farge2": "Grønn",
@@ -458,7 +458,7 @@
 			},
 			"T05": {
 				"Fotballtøy": "Fotballsko",
-				"Navn": "Adidas World Cup",
+				"Navn": "Adidas W-C",
         "Størrelse": "44",
         "Farge1": "Svart",
         "Farge2": "Hvit",
@@ -510,7 +510,7 @@
 			},
 			"T09": {
 				"Fotballtøy":"Fotballsko",
-				"Navn": "Adidas Predator 18",
+				"Navn": "Adidas P-18",
 				"Størrelse": "44",
 				"Farge1": "Svart",
 				"Farge2": "Gull",
@@ -523,7 +523,7 @@
 			},
 			"T10": {
 				"Fotballtøy":"Fotballdrakt",
-				"Navn": "Manchester City H",
+				"Navn": "Man City H",
 				"Størrelse": "L",
 				"Farge1": "Blå",
 				"Farge2": "Svart",
@@ -536,7 +536,7 @@
 			},
 			"T11": {
 				"Fotballtøy":"Fotballsko",
-				"Navn": "Nike Mercurial Superfly",
+				"Navn": "Nike M-S",
 				"Størrelse": "43",
 				"Farge1": "Oransje",
 				"Farge2": "Svart",
@@ -549,7 +549,7 @@
 			},
 			"T12": {
 				"Fotballtøy":"Fotballdrakt",
-				"Navn": "Manchester City B",
+				"Navn": "Man City B",
 				"Størrelse": "L",
 				"Farge1": "Svart",
 				"Farge2": "Blå",
@@ -562,7 +562,7 @@
 			},
 			"T13": {
 				"Fotballtøy":"Fotballsko",
-				"Navn": "Nike Superfly 6 Pro",
+				"Navn": "Nike Pro",
 				"Størrelse": "43",
 				"Farge1": "Hvit",
 				"Farge2": "Oransje",
@@ -576,7 +576,7 @@
 			},
 			"T14": {
 				"Fotballtøy": "Fotballdrakt",
-				"Navn": "Manchester City T",
+				"Navn": "Man City T",
 				"Størrelse": "L",
 				"Farge1": "Lilla",
 				"Farge2": "Oransje",
@@ -588,7 +588,7 @@
 			},
 			"T15": {
 				"Fotballtøy":"Fotballsko",
-				"Navn": "Adidas Predator 17",
+				"Navn": "Adidas P-17",
 				"Størrelse": "45",
 				"Farge1": "Gul",
 				"Farge2": "Svart",
@@ -614,7 +614,7 @@
 			},
 			"T17": {
 				"Fotballtøy":"Fotballsko",
-				"Navn": "Nike Tiempo Legend",
+				"Navn": "Nike Legend",
 				"Størrelse": "45",
 				"Farge1": "Rød",
 				"Farge2": "Svart",
